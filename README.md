@@ -27,7 +27,7 @@ PC微信版本 3.7.6.44
 
     修改 Default 的动作 action 为直接 `Direct`，防止其他应用请求混入，新建->名称`微信小程序`->应用程序 `WeChatAppEx.exe`，动作选择上一步添加的代理默认名为 `Proxy HTTPS 127.0.0.1`，关闭窗口会运行于系统托盘
 
-### Burpe Suite 环境
+### Burpe Suite (Community Edition) 环境
 
 Burpe Suite 基于 java（自带 jre，需要管理员权限，可以开启高 DPI 修复）
 
