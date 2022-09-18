@@ -1,12 +1,14 @@
-# 微信小程序中间人破解（MITM：Man in the middle）
+# 微信小程序中间人监听破解（MITM：Man in the middle）
 
 作者：Bumprat
 
-编制日期：2022 年 9 月 18 日，版本 3.7.6.44
+编制日期：2022 年 9 月 18 日
+
+PC微信版本 3.7.6.44
 
 ## 概述
 
-1. 此方法主要思路是中间人监听，man in the middle，简洁移动，几乎不用写代码
+1. 此方法主要思路是中间人监听，man in the middle，简洁易懂，几乎不用写代码
 1. 为了方便地实现 http/https 请求捕获，需要使用 pc 环境
 1. pc 环境微信 3.7.6.44 版本，微信小程序可执行文件不是主程序文件 WeChat.exe，而是 WeChatAppEx.exe
 1. 主程序文件 WeChat.exe 在登陆时支持修改 http 代理，但对 WeChatAppEx.exe 不生效
